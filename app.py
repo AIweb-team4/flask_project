@@ -16,5 +16,4 @@ def create_app():
 
     model.db.init_app(app)
     migrate = Migrate(app, model.db)
-    return app
-# 구글 맵 키 = AIzaSyANuV_UHwrGrk4WStt1jJLTgWkg1DJ1ZSE
+    return ap
